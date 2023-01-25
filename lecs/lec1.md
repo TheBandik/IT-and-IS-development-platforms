@@ -11,7 +11,7 @@ app = psqw.QApplication()
 window = psqw.QWidget()
 window.show()
 
-app._exec()
+app.exec_()
 ```
 
 Теперь запустим приложение. Сделать это можно через консоль с помощью команды:
@@ -47,10 +47,10 @@ window.show()
 
 > Виджеты без родителя по умолчанию невидимы. Поэтому после создания объекта окна мы всегда должны вызывать у него метод ```show```, чтобы сделать его видимым.
 
-Наконец, мы вызываем у приложения метод ```_exec``` для запуска цикла событий:
+Наконец, мы вызываем у приложения метод ```exec_``` для запуска цикла событий:
 
 ```python
-app._exec()
+app.exec_()
 ```
 
 ## Событийный цикл
@@ -77,7 +77,7 @@ app = psqw.QApplication()
 window = psqw.QPushButton('Нажми меня')
 window.show()
 
-app._exec()
+app.exec_()
 ```
 
 ![lec1-3](lec1-3.png))
@@ -94,7 +94,7 @@ app = psqw.QApplication()
 window = psqw.QMainWindow()
 window.show()
 
-app._exec()
+app.exec_()
 ```
 
 После запуска видим, что мы получаем такое же окно, как и ранее (но меньшего размера).
@@ -122,7 +122,7 @@ app = psqw.QApplication()
 window = MainWindow()
 window.show()
 
-app._exec()
+app.exec_()
 ```
 
 ![lec1-5](lec1-5.png)
@@ -163,7 +163,7 @@ app = psqw.QApplication()
 window = MainWindow()
 window.show()
 
-app._exec()
+app.exec_()
 ```
 
 ![lece1-6](lec1-6.png)
@@ -206,7 +206,7 @@ app = psqw.QApplication()
 window = MainWindow()
 window.show()
 
-app._exec()
+app.exec_()
 ```
 
 ![lec1-7](lec1-7.png)
@@ -243,7 +243,7 @@ app = psqw.QApplication()
 window = MainWindow()
 window.show()
 
-app._exec()
+app.exec_()
 ```
 
 ![lec1-8](lec1-8.png)
@@ -282,7 +282,7 @@ app = psqw.QApplication()
 window = MainWindow()
 window.show()
 
-app._exec()
+app.exec_()
 ```
 
 ![lec1-9](lec1-9.png)
@@ -318,7 +318,7 @@ app = psqw.QApplication()
 window = MainWindow()
 window.show()
 
-app._exec()
+app.exec_()
 ```
 
 Сигнал ```released``` срабатывает при отпускании кнопки, но не отправляет состояние проверки, поэтому вместо этого мы используем ```isChecked```, чтобы получить состояние проверки от кнопки в нашем обработчике.
@@ -353,7 +353,7 @@ app = psqw.QApplication()
 window = MainWindow()
 window.show()
 
-app._exec()
+app.exec_()
 ```
 
 ![lec1-10](lec1-10.png)
@@ -412,7 +412,7 @@ app = psqw.QApplication()
 window = MainWindow()
 window.show()
 
-app._exec()
+app.exec_()
 ```
 
 ![lec1-11](lec1-11.png)
@@ -461,7 +461,7 @@ app = psqw.QApplication()
 window = MainWindow()
 window.show()
 
-app._exec()
+app.exec_()
 ```
 
 ![lec1-12](lec1-12.png)
@@ -515,7 +515,7 @@ app = psqw.QApplication()
 window = MainWindow()
 window.show()
 
-app._exec()
+app.exec_()
 ```
 
 ![lec1-13](lec1-13.png)
@@ -586,7 +586,7 @@ app = psqw.QApplication()
 window = MainWindow()
 window.show()
 
-app._exec()
+app.exec_()
 ```
 
 ### Контекстные меню
@@ -614,7 +614,7 @@ app = psqw.QApplication()
 window = MainWindow()
 window.show()
 
-app._exec()
+app.exec_()
 ```
 
 ![lec1-14](lec1-14.png)

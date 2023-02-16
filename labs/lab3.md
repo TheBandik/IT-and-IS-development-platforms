@@ -1,1 +1,0 @@
-https://thebandik.notion.site/4-5f134d41481e48b68f3d23f542afbae6

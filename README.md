@@ -32,3 +32,7 @@
 
 #### [Лекция №6](lecs/lec6/lec6.md)
 #### [Лабораторная работа №6](labs/lab6/lab6.md)
+
+### Qt Designer
+
+#### [Лекция №7](lecs/lec7.md)

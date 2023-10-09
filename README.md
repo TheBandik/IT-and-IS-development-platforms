@@ -68,3 +68,7 @@
 
 ##### [Лекция №5](sem2/lecs/lec5.md)
 ##### [Лабораторная работа №5](sem2/labs/lab5.md)
+
+#### Selenium
+
+##### [Лекция №6](sem2/lecs/lec6.md)
